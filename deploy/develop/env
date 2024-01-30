@@ -2,7 +2,7 @@ APP_NAME="PII Malaysia"
 APP_ENV=local
 APP_KEY=base64:SxzQxkxE6YTPAq4biBn31Y/iOgcPRxYmcjDFOgPynJ8=
 APP_DEBUG=true
-APP_URL=https://pii-malaysia.test
+APP_URL=https://pii.mayantara.co.id
 
 LOG_CHANNEL=daily
 LOG_DEPRECATIONS_CHANNEL=null

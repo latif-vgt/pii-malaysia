@@ -49,14 +49,4 @@ class User extends Authenticatable implements FilamentUser
     {
         return true;
     }
-
-    /**
-     * Interact with the user's password.
-     */
-    protected function password(): Attribute
-    {
-        return Attribute::make(
-            set: fn (string $value) => bcrypt($value),
-        );
-    }
 }
