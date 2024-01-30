@@ -1,0 +1,14 @@
+# docker-compose.yml
+
+version: "3.8"
+services:
+  pii_malaysia:
+    container_name: pii_malaysia
+    restart: unless-stopped
+    image: pii_malaysia:main
+    ports:
+      - "7000:8000"
+    volumes:
+      - pii_malaysia_storage:/var/www/storage
+volumes:
+  pii_malaysia_storage:
